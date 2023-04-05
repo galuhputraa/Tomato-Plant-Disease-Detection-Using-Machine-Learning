@@ -12,16 +12,20 @@ Link Paper: [Journal of Theoretical and Applied Information Technology (JATIT)](
 
 ## Data Preparation
 
-Download the data from here : [Dataset]()
+This is the modified dataset from the [Plant Village](https://www.kaggle.com/datasets/emmarex/plantdisease) by just using the tomato class for doing a classfication healthy or non healthy tomato plant disease.
+
+Download the data from here : [Our Dataset Modified](https://drive.google.com/file/d/1ZRQFbKpA6znsrnuiex--6fIZCJF6ubVr/view?usp=sharing)
 
 After you download the dataset from the link above you can change the directory based on your local or your files in google colab (i recomendded to run or do experiment in google colab)
 
-### IPYNB Files
+## IPYNB Files
 -The first IPYNB file is the MobileNetV1 code without augmentation in dark or light conditions.
+
 -The second IPYNB file is the MobileNetV1 code with augmentation in dark conditions.
+
 -The third IPYNB file is the MobileNetV1 code with augmentation in bright conditions.
 
-
+## UI WEB
 After the model has been trained for evaluation and testing, the model to be used is converted into .json to be used as an API on the website below
 
 [UI Website for capture, receive the result of the classfication and soil moisture percentage] (https://github.com/galuhputraa/johfarrell.github.io)
